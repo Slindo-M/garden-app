@@ -1,6 +1,7 @@
-# Hardcoded values for the season and plant type
-season = "summer"  # TODO: Replace with input() to allow user interaction.
-plant_type = "flower"  # TODO: Replace with input() to allow user interaction.
+# Simple gardening advice generator based on season and plant type.
+# Get user input for season and plant type
+season = input("Enter the current season (summer, winter, spring, autumn): ")
+plant_type = input("Enter the type of plant (flower, vegetable): ")
 
 # Variable to hold gardening advice
 advice = ""
